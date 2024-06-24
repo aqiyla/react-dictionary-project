@@ -9,7 +9,20 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Aqiyla McLean</footer>
+        <footer className="App-footer">
+          This project was coded by{" "}
+          <a href="https://github.com/aqiyla" target="_blank" rel="noreferrer">
+            Aqiyla McLean,
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/aqiyla/react-dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub.
+          </a>
+        </footer>
       </div>
     </div>
   );
