@@ -1,13 +1,24 @@
 body {
-  background: #bbdabb;
+  background: #f0ece2;
 }
+
+:root {
+  --primary-color: #044a42;
+}
+
 .App-header {
+  color: var(--primary-color);
   text-align: center;
-  font-size: 40px;
+  font-weight: bold;
+  font-size: 50px;
   margin: 30px 0;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.App-footer a {
+  color: var(--primary-color);
 }
