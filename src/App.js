@@ -20,7 +20,15 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub.
+            GitHub
+          </a>
+          {""} and hosted on{" "}
+          <a
+            href="https://snazzy-madeleine-6327bd.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
